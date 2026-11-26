@@ -269,7 +269,7 @@ const stage=$('#stage'), mail=$('#mail'), wrap=$('#wrap'), shakeEl=$('#shake'), 
 let taps=0, opened=false, done=false, typing=false, fem=false, name='';
 
 /* jugadores: el número del enlace es su id (…#7 → Juanki); con --a sale "invitada" (…#7--a) */
-const PLAYERS=[null,'Eyepro','Aldo','Pizarro','Hojita','Sanche','Alepro','Juanki','Gorbar','Kaizen','Lulo','Mateo','Tate','Gaizka','Whoppy','Horbox','Joseph','Tilin','Slaior','Gonzalety','IGOTZIN'];
+const PLAYERS=[null,'Eyepro','Aldo','Pizarro','Hojita','Sanche','Alepro','Juanki','Gorbar','Kaizen','Lulo','Mateo','Tate','Gaizka','Whoppy','Horbox','Joseph','Tilin','Slaior','Gonzalety','IGOTZIN','1josee0'];
 /* nombre del invitado: #7 (id de la lista) o #Nombre libre; con --a, "invitada"; también ?id=7 / ?para=Nombre&f si se aloja fuera */
 const clean=s=>(s||'').replace(/[-_+]+/g,' ').replace(/[^\p{L}\p{N}' .]/gu,'').replace(/\s+/g,' ').trim().slice(0,20);
 function readUrl(){
